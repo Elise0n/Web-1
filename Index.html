@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="articulo.html">Artículo</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido de la página principal -->
+    <div class="contenido">
+        <h1>Bienvenido a mi sitio web</h1>
+        <p>Explora nuestras increibles secciones!</p>
+    </div>
+
+    <!-- Contenido de la página de artículo -->
+    <div class="contenido">
+        <h1>Articulo</h1>
+        <p>Lee nuestro oltimo articulo!</p>
+        <a href="index.html">Volver a la pagina principal</a>
+    </div>
+
+    <!-- Contenido de la página de contacto -->
+    <div class="contenido">
+        <h1>Contacto</h1>
+        <form id="contactForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="mensajeEnvio"></div>
+    </div>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <button onclick="prevImage()">Anterior</button>
+        <img id="carouselImg" src="imagen1.jpg" alt="Imagen del carousel">
+        <button onclick="nextImage()">Siguiente</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
