@@ -1,14 +1,22 @@
 /* Estilos generales */
+/* .poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }   */
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-size: 2.0em;
     margin: 0;
     padding: 0;
 }
 h1{
     margin: 0;
     text-align: center;
-    background-image: url(img/b23af675b019c1fbd99bec958a457d16-gran-conjunto-de-instrumentos-musicales.webp);
-    background-size: 50px;
+    background-image: url(/img/b23af675b019c1fbd99bec958a457d16-gran-conjunto-de-instrumentos-musicales.jpg);
+    background-size: 350px;
+    background-position: 0 -30px;
     padding: 20px 0;
 }
 
