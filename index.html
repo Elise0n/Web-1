@@ -3,34 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Intrumentos</title>
+    <title>TrustedMusic - Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Menú de navegación -->
-    <h1>Intrumentos</h1>
+    <div class="header">
+        <!-- Menú de navegación -->
+        <h1>TrustedMusic</h1>
+        <!-- <h3>Tu tienda de confianza</h3> -->
+    </div>
     <nav>
         <ul>
-            <li><a class="actual" href="index.html">Principal</a></li>
+            <li><a class="actual" href="index.html">Inicio</a></li>
             <li><a href="articulo.html">Artículo</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </nav>
+    <div class="container1">
 
-    <!-- Contenido de la página principal -->
-    <div class="contenido">
-        <h2>Bienvenidos</h2>
-        <p>Explora todas las seccionessss!</p>
-    </div>
-
-    <!-- Carousel -->
-    <div class="carousel">
-        <button onclick="prevImage()">Anterior</button>
-        <img id="carouselImg" src="imagen1.jpg" alt="Imagen del carousel">
-        <button onclick="nextImage()">Siguiente</button>
+        <!-- Contenido de la página principal -->
+        <div class="contenido">
+            <h2>Bienvenido a nuestra tienda online!</h2>
+            <p>Explora todas las seccionessss!</p>
+        </div>
+    
+        <!-- Carousel -->
+        <div class="carousel">
+            <button onclick="prevImage()">Anterior</button>
+            <img id="carouselImg" src="imagen1.jpg" alt="Imagen del carousel">
+            <button onclick="nextImage()">Siguiente</button>
+        </div>
     </div>
 
     <script src="script.js"></script>

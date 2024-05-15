@@ -1,63 +1,18 @@
-/* Estilos generales */
-/* .poetsen-one-regular {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }   */
-body {
-    font-family: "Poetsen One", sans-serif;
-    font-weight: 400;
-    font-size: 2.0em;
-    margin: 0;
-    padding: 0;
-}
-h1{
-    margin: 0;
-    text-align: center;
-    background-image: url(/img/b23af675b019c1fbd99bec958a457d16-gran-conjunto-de-instrumentos-musicales.jpg);
-    background-size: 350px;
-    background-position: 0 -30px;
-    padding: 20px 0;
+.container1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-/* Estilos para el menú de navegación */
-nav {
+.contenido{
     text-align: center;
-    background-color: #333;
-    color: white;
     padding: 10px 0;
 }
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.contenido h2{
+    margin: 10px 0;
 }
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-.actual {
-    background-color: rgb(0, 255, 166);
-}
-.contenido{
-    margin-left: 10px;
+.carousel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
 }
