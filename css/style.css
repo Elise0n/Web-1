@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     align-content: space-between;
     /* text-align: center; */
-    background-image: url(img/shutterstock_649741651-copia-compressed.jpg);
+    background-image: url(/img/shutterstock_649741651-copia-compressed.jpg);
     /* background-repeat: no-repeat; */
     background-size: 50%;
     height: 110px;
