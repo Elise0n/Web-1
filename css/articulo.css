@@ -1,20 +1,26 @@
 .container{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-content: center; */
-
-    
+    align-items: center;
+    width: 100vw;
 }
 .columnas{
-    width: 100px;
-    height: 100px;
-    /* display: flex;
+    /* width: 100px;
+    height: 100px; */
+    display: flex;
     flex-direction: row;
-    align-content: center; */
+    /* align-content: center; */
     background-color: aquamarine;
 }
-
+.columnas div{
+    margin: 20px;
+}
 .columnas img{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+}
+
+
+.columnas p{
+    
 }
