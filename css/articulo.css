@@ -1,0 +1,20 @@
+.container{
+    /* display: flex;
+    flex-direction: column;
+    align-content: center; */
+
+    
+}
+.columnas{
+    width: 100px;
+    height: 100px;
+    /* display: flex;
+    flex-direction: row;
+    align-content: center; */
+    background-color: aquamarine;
+}
+
+.columnas img{
+    width: 200px;
+    height: 200px;
+}
