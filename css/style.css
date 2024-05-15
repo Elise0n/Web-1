@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     align-content: space-between;
     /* text-align: center; */
-    background-image: url(img/b23af675b019c1fbd99bec958a457d16-gran-conjunto-de-instrumentos-musicales.jpg);
+    background-image: url(/img/b23af675b019c1fbd99bec958a457d16-gran-conjunto-de-instrumentos-musicales.jpg);
     /* background-repeat: no-repeat; */
     background-size: 50%;
     height: 110px;
