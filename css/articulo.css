@@ -13,14 +13,29 @@
     background-color: rgb(197, 211, 206);
 }
 .columnas div{
+    overflow: hidden;
+    width: 400px;
     margin: 20px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.columnas span{
+    display: block;
+    text-align: center;
+    background-color: rgb(212, 255, 255);
 }
 .columnas img{
-    width: 300px;
+    /* width: 300px; */
     height: 300px;
+    padding: 10px;
+    border: 1px solid blue;
 }
 
-
+.divImg{
+    /* width: 100px;
+    height: 100px; */
+    /* overflow: hidden; */
+}
 .columnas p{
     
 }
