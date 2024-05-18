@@ -19,7 +19,7 @@ body {
     flex-direction: row;
     align-content: space-between;
     /* text-align: center; */
-    background-image: url(/img/discosbanner.jpg);
+    background-image: url(./img/discosbanner.jpg);
     /* background-repeat: no-repeat; */
     background-size: 900px;
     height: 110px;
