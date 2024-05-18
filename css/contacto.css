@@ -21,7 +21,7 @@ body{
     text-align: center;
     padding:10px 0;
 }
-.container input{
+.inputs input{
     margin-bottom: 10px;
     width: 250px;
     height: 30px;
@@ -29,7 +29,7 @@ body{
     padding-left: 10px;
     font-size: 0.7em;
 }
-.container input, label, textarea{
+.inputs label{
     display: block;
     /* background-color: aliceblue; */
 }
@@ -52,7 +52,7 @@ body{
     justify-content: center;
     /* align-content: center; */
     width: 350px;
-    height: 400px;
+    height: 500px;
     /* padding: 200px 100px; */
     border: 1px solid rgb(252, 172, 255);
     border-radius: 7px;
@@ -60,6 +60,18 @@ body{
 }
 .container h2{
     margin:20px 0;
+}
+.ubicacion input{
+    width: 15px;
+    height: 15px;
+    margin: 15px 0 30px 0;
+}
+.ubicacion label{
+    font-size: 0.7em;;
+    /* margin: 15px 0 30px 0; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* padding:7px; */
 }
 .container button{
     width: 100px;
