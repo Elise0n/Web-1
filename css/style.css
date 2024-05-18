@@ -4,12 +4,14 @@
     font-weight: 400;
     font-style: normal;
   }   */
+
 body {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-size: 1.3em;
     margin: 0;
-    padding: 0;
+    padding: 0 0 65px 0;
+    height: 100%;
 }
 .header{
     margin: 0;
@@ -19,7 +21,7 @@ body {
     /* text-align: center; */
     background-image: url(/img/discosbanner.jpg);
     /* background-repeat: no-repeat; */
-    background-size: 50%;
+    background-size: 900px;
     height: 110px;
     background-position: 0 -30px;
     /* padding: 20px 0;  */
@@ -42,7 +44,8 @@ h1{
 } */
 
 .container {
-    max-width: 800px;
+    /* background-color: aquamarine; */
+    max-width: 1300px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -83,4 +86,14 @@ nav ul li a:hover:not(.actual) {
 }
 .contenido{
     margin-left: 10px;
+}
+
+footer{
+    width: 100%;
+    padding:20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    bottom:0;
 }
