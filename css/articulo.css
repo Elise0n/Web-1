@@ -5,14 +5,14 @@
 body{
     /* background-color:rgb(196, 202, 255); */
     background-image: url(../img/backgroundArticulo-dj-set-pictures.jpg);
-    background-size: 1920px;
+    background-size: cover;
     background-position: 0 32px;
 }
 
 .columnas{
     
     /* background-color: aqua; */
-    background-color:rgba(216, 220, 255,0.7);
+    background-color:rgba(216, 219, 255, 0.7);
     border-radius: 30px;
     display: flex;
     flex-direction: row;
@@ -34,7 +34,7 @@ body{
     text-align: center;
     margin: 25px 0 35px 0;
     padding:5px;
-    background-color: rgba(227, 213, 253, 0.452);
+    background-color: rgba(213, 253, 253, 0.452);
     font-size: 1.4em;
     border-radius: 10px;
 }
@@ -45,7 +45,7 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 10px;
-    background-color: rgba(222, 226, 255,0.2);
+    background-color: rgba(222, 253, 255, 0.2);
     border-radius: 30px;
 }
 
