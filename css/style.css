@@ -24,7 +24,7 @@ body {
     /* text-align: center; */
     background-image: url(../img/discosbanner.jpg);
     /* background-repeat: no-repeat; */
-    background-size: 900px;
+    background-size: center;
     height: 110px;
     background-position: 0 -30px;
     /* padding: 20px 0;  */
@@ -33,7 +33,7 @@ body {
 }
 
 h1{
-    background-color: aliceblue;
+    background-color: transparent;
     /* display: inline-block; */
     margin: 21px 10px;
     /* margin:100px 100px; */
