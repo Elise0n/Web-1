@@ -27,41 +27,49 @@
     </nav>
 
     <!-- Formulario de contacto -->
-    <div class="container">
-        <h2>Contacto</h2>
+    <div class="container" id="containerr">
+        <h2>Consultas</h2>
         
             <form id="contactForm">
                 <div class="inputs">
                     <label for="nombre">Nombre: </label>
-                    <input type="text" id="nombre" name="nombre" required>
+                    <input type="text" id="nombre" name="nombre" >
                 </div>
                 <div class="inputs">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
+                    <input type="emaail" id="email" name="emaial" >
                 </div>
                 <div class="inputs">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <textarea id="mensaje" name="mensaje" ></textarea>
                 </div>
                 <div class="ubicacion">
                     <p>Usted se encuentra en:</p>
-                    <input type="radio" id="argentina" name="pais" value="argentina"></input>
+                    <input type="radio" id="argentina" name="pais" value="argentina">
                     <label for="argentina">Argentina</label>
-                    <input type="radio" id="otro" name="pais" value="otro"></input>
+                    <input type="radio" id="otro" name="pais" value="otro">
                     <label for="otro">Otro país</label>
                 </div>
 
                 <button type="submit">Enviar</button>
 
-            </form>
-        
-        <div id="mensajeEnviado" style="display: none;"></div>
-    </div>
+            </form>      
+            <ul id="mensajesError"></ul>
+            <!-- <div id="formExitoso">
+            </div> -->
+        </div>
+        <div id = "seccionComentarios">
+            <!-- <p>Consultas realizadas:</p> -->
+            <!-- <div>
+                <p><b>Pablo</b> comentó</p>
+                <p id="comentario">Traigan productos de native por favorrrr, no consigo esa marca en ningun lado y parece buenisima, como sea muchas gracias por existir</p>
+            </div> -->
+        </div>
 
     <footer>
         <p>Visitanos en nuestras redes ----- ----- ----- TrustedMusic</p>
     </footer>
-    <!-- <script src="script.js"></script> -->
+    <script src="js/formulariotest.js"></script>
 </body>
 
 </html>
