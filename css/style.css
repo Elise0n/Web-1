@@ -24,9 +24,9 @@ body {
     /* text-align: center; */
     background-image: url(../img/discosbanner.jpg);
     /* background-repeat: no-repeat; */
-    background-size: center;
+    background-size: cover;
     height: 110px;
-    background-position: 0 -30px;
+    background-position: 85px 0;
     /* padding: 20px 0;  */
     /* overflow: hidden; */
     
@@ -99,4 +99,9 @@ footer{
     text-align: center;
     position: fixed;
     bottom:0;
+}
+
+footer a{
+    color: white;
+    margin: 0 5px 0 5px;
 }

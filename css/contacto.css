@@ -30,8 +30,11 @@ body{
 
 .container h2{
     margin-bottom: 20px;
-    color: #ffffff;
+    color: black;
     font-size: 24px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
 }
 .container label{
     text-align: center;
@@ -39,7 +42,7 @@ body{
     color: #555;
 }
 .inputs input, .container textarea{
-    margin-top: 20px;
+    margin: 10px 0;
     width: 100%;
     padding: 10px;
     border-radius: 50px;
@@ -61,7 +64,7 @@ body{
 .ubicacion input{
     width: 15px;
     height: 15px;
-    margin: 10px;
+    margin: 0 0 30px 0;
 }
 .ubicacion label{
     font-size: 14px;
@@ -82,32 +85,31 @@ body{
     background-color: #6C4CE2;
 }
 
-.error{
-    border: 2px solid red;
-}
 
-#seccionComentarios{
+#seccionConsultas{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     width: 100%;
     padding: 20px;
+    overflow-wrap: break-word;
 }
-#seccionComentarios div{
+#seccionConsultas div{
     font-family: Helvetica, sans-serif;
     font-weight: 100;
     background-color: #f5f5f5;
-    width: 80%;
+    width: 40%;
     padding: 20px;
     margin: 10px 0;
     border-radius: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
-#comentario{
+#consulta{
     margin: 5px;
     font-size: 14px;
     color: #333;
 }
+
 #formExitoso{
     display:flex;
     flex-direction: column;
@@ -135,5 +137,18 @@ body{
 #formExitoso button:hover {
     background-color: #eee;
 }
-
+h3{
+    text-align: center;
+    color: #000000;
+    background-color: #ffffffd2;
+}
+.error{ 
+    background-color: rgb(255, 192, 192);
+}
+#mensajesError{
+    font-size: 0.9em;
+    list-style: none;
+    color: red;
+    border-radius: 0 0 20px 20px;
+}
 

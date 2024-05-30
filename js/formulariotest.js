@@ -21,6 +21,10 @@ function validarFormulario(event) {
         check = false;
         nombre.className = 'error';
         mostrarError('Debe introducir un nombre.');
+    }else if(nombreVal.length > 9){
+        check = false;
+        nombre.className = 'error';
+        mostrarError('El nombre no debe tener mas de 9 caracteres.');
     }
     
     // Validar el formato del correo electrónico
@@ -34,7 +38,7 @@ function validarFormulario(event) {
     if (mensajeVal.trim() == '') {
         check = false;
         mensaje.className = 'error';
-        mostrarError('Debe introducir un mensaje.');
+        mostrarError('Debe introducir una consulta.');
     }
 
 
@@ -42,7 +46,7 @@ function validarFormulario(event) {
     if (check == true) {
         mensajeExito();
         document.getElementById('contactForm').reset(); // Limpiar el formulario
-        agregarComentario(nombreVal, mensajeVal);
+        agregarConsulta(nombreVal, mensajeVal);
     }
 }
 
@@ -61,37 +65,36 @@ function mensajeExito() {
     document.getElementById('containerr').appendChild(formExitoso);
     
     let mensajeE = document.createElement('p');
-    mensajeE.innerHTML = 'Se agregó el comentario';
-    //agrega mensaje de exito y un boton para volver a comentar
+    mensajeE.innerHTML = 'Se agregó la consulta';
+    //agrega mensaje de exito y un boton para volver a consultar
     formExitoso.appendChild(mensajeE);
-    let botonComentar = document.createElement('button');
-    botonComentar.type="button";
-    botonComentar.innerHTML="Agregar otro comentario";
-    botonComentar.onclick = function(){
-        comentarDeNuevo()
+    let botonConsultar = document.createElement('button');
+    botonConsultar.type="button";
+    botonConsultar.innerHTML="Hacer otra consulta";
+    botonConsultar.onclick = function(){
+        consultarDeNuevo()
     }
-    formExitoso.appendChild(botonComentar);
+    formExitoso.appendChild(botonConsultar);
 }
 let arrComent = [];
-let seccionComentarios = document.getElementById('seccionComentarios');
+let seccionConsultas = document.getElementById('seccionConsultas');
 
-function agregarComentario(nombre, mensaje) {
+function agregarConsulta(nombre, mensaje) {
     let contenedor = document.createElement('div');
     let usuario = document.createElement('p');
-    usuario.innerHTML = `<b>${nombre}</b> comentó:`;
-    let comentario = document.createElement('p');
-    comentario.id = "comentario";
-    comentario.innerHTML = mensaje;
-    document.getElementById('seccionComentarios').appendChild(contenedor);
+    usuario.innerHTML = `<b>${nombre}</b> Consultó:`;
+    let consulta = document.createElement('p');
+    consulta.id = "consulta";
+    consulta.innerHTML = mensaje;
+    document.getElementById('seccionConsultas').appendChild(contenedor);
     contenedor.appendChild(usuario);
-    contenedor.appendChild(comentario);
+    contenedor.appendChild(consulta);
   
 }
 
-function comentarDeNuevo() {
+function consultarDeNuevo() {
     document.getElementById('formExitoso').remove();
     document.getElementById('contactForm').style.display = 'flex';
-
 }
 
 // Agregar el evento submit al formulario

@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/95f96c39e8.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -37,14 +38,14 @@
                 </div>
                 <div class="inputs">
                     <label for="email">Email:</label>
-                    <input type="emaail" id="email" name="emaial" >
+                    <input type="text" id="email" name="email" >
                 </div>
                 <div class="inputs">
                     <label for="mensaje">Mensaje:</label>
                     <textarea id="mensaje" name="mensaje" ></textarea>
                 </div>
+                <label for="pais">Usted se encuentra en:</label>
                 <div class="ubicacion">
-                    <p>Usted se encuentra en:</p>
                     <input type="radio" id="argentina" name="pais" value="argentina">
                     <label for="argentina">Argentina</label>
                     <input type="radio" id="otro" name="pais" value="otro">
@@ -53,21 +54,16 @@
 
                 <button type="submit">Enviar</button>
 
+                <ul id="mensajesError"></ul>
             </form>      
-            <ul id="mensajesError"></ul>
-            <!-- <div id="formExitoso">
-            </div> -->
+
         </div>
-        <div id = "seccionComentarios">
-            <!-- <p>Consultas realizadas:</p> -->
-            <!-- <div>
-                <p><b>Pablo</b> comentó</p>
-                <p id="comentario">Traigan productos de native por favorrrr, no consigo esa marca en ningun lado y parece buenisima, como sea muchas gracias por existir</p>
-            </div> -->
+        <h3>Consultas realizadas:</h3>
+        <div id = "seccionConsultas">
         </div>
 
     <footer>
-        <p>Visitanos en nuestras redes ----- ----- ----- TrustedMusic</p>
+        <p>Visitanos en nuestras redes <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>  <a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a> <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>  @TrustedMusic</p>
     </footer>
     <script src="js/formulariotest.js"></script>
 </body>
