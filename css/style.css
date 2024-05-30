@@ -31,6 +31,24 @@ body {
     /* overflow: hidden; */
     
 }
+.container1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contenido{
+    text-align: center;
+    padding: 10px 0;
+}
+.contenido h2{
+    margin: 10px 0;
+}
+.carousel{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
 
 h1{
     background-color: transparent;
